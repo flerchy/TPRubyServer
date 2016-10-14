@@ -5,7 +5,7 @@ AMOUNT_WORKERS = AMOUNT_CPU
 MAX_PACKET = 32768
 
 HOST = 'localhost'
-PORT = 80
+PORT = 8080
 
 
 STATUS_DICT = {
@@ -30,7 +30,7 @@ CONTENT_TYPE_MAPPING = {
 
 ALLOW_METHODS = ['GET', 'HEAD'].join(', ')
 
-PROJECT_ROOT = 'static'
+PROJECT_ROOT = 'DOCUMENT_ROOT'
 INDEX_PATH = 'index.html'
 
 DEFAULT_CONTENT_TYPE = 'text/plain'
